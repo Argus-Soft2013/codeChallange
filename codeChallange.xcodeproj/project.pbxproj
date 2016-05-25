@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C7279FEAAF7CAB61C1B2AB8 /* libPods-codeChallange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBAFA70DB11481C096A50B5 /* libPods-codeChallange.a */; };
 		322C6DC21CF5A49F00D9D9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DC11CF5A49F00D9D9FB /* main.m */; };
 		322C6DC51CF5A49F00D9D9FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DC41CF5A49F00D9D9FB /* AppDelegate.m */; };
-		322C6DC81CF5A49F00D9D9FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DC71CF5A49F00D9D9FB /* ViewController.m */; };
 		322C6DCB1CF5A49F00D9D9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322C6DC91CF5A49F00D9D9FB /* Main.storyboard */; };
 		322C6DCE1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DCC1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld */; };
 		322C6DD01CF5A49F00D9D9FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322C6DCF1CF5A49F00D9D9FB /* Assets.xcassets */; };
 		322C6DD31CF5A49F00D9D9FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322C6DD11CF5A49F00D9D9FB /* LaunchScreen.storyboard */; };
 		322C6DDE1CF5A4A000D9D9FB /* codeChallangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DDD1CF5A4A000D9D9FB /* codeChallangeTests.m */; };
 		322C6DE91CF5A4A000D9D9FB /* codeChallangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DE81CF5A4A000D9D9FB /* codeChallangeUITests.m */; };
+		322C6DF81CF5A69400D9D9FB /* Example.json in Resources */ = {isa = PBXBuildFile; fileRef = 322C6DF71CF5A69400D9D9FB /* Example.json */; };
+		322C6E651CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E521CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m */; };
+		322C6E661CF5BDC200D9D9FB /* KPICDEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E541CF5BDC200D9D9FB /* KPICDEntity.m */; };
+		322C6E671CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E561CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m */; };
+		322C6E681CF5BDC200D9D9FB /* KPICDCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E581CF5BDC200D9D9FB /* KPICDCurrency.m */; };
+		322C6E691CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E5A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m */; };
+		322C6E6A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E5C1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m */; };
+		322C6E6B1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E5E1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m */; };
+		322C6E6C1CF5BDC200D9D9FB /* KPICDValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E601CF5BDC200D9D9FB /* KPICDValue.m */; };
+		322C6E6D1CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E621CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m */; };
+		322C6E6E1CF5BDC200D9D9FB /* KPICDTimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E641CF5BDC200D9D9FB /* KPICDTimePeriod.m */; };
+		322C6E771CF5BE2B00D9D9FB /* KPIEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E761CF5BE2B00D9D9FB /* KPIEntity.m */; };
+		322C6E7B1CF5BE4300D9D9FB /* KPICurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E7A1CF5BE4300D9D9FB /* KPICurrency.m */; };
+		322C6E7F1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E7E1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.m */; };
+		322C6E831CF5BE9100D9D9FB /* KPIValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E821CF5BE9100D9D9FB /* KPIValue.m */; };
+		322C6E871CF5BEAA00D9D9FB /* KPITimePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E861CF5BEAA00D9D9FB /* KPITimePeriod.m */; };
+		322C6E8B1CF5CAB300D9D9FB /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E8A1CF5CAB300D9D9FB /* DashboardViewController.m */; };
+		322C6E901CF5D2CE00D9D9FB /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E8F1CF5D2CE00D9D9FB /* CoreDataManager.m */; };
+		322C6E961CF5D73500D9D9FB /* NSNumber+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */; };
+		322C6E971CF5D73500D9D9FB /* NSString+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */; };
+		322C6E9A1CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +61,6 @@
 		322C6DC11CF5A49F00D9D9FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		322C6DC31CF5A49F00D9D9FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		322C6DC41CF5A49F00D9D9FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		322C6DC61CF5A49F00D9D9FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		322C6DC71CF5A49F00D9D9FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		322C6DCA1CF5A49F00D9D9FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		322C6DCD1CF5A49F00D9D9FB /* codeChallange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = codeChallange.xcdatamodel; sourceTree = "<group>"; };
 		322C6DCF1CF5A49F00D9D9FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +72,50 @@
 		322C6DE41CF5A4A000D9D9FB /* codeChallangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = codeChallangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		322C6DE81CF5A4A000D9D9FB /* codeChallangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = codeChallangeUITests.m; sourceTree = "<group>"; };
 		322C6DEA1CF5A4A000D9D9FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		322C6DF71CF5A69400D9D9FB /* Example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Example.json; sourceTree = "<group>"; };
+		322C6E511CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPICDEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322C6E521CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPICDEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322C6E531CF5BDC200D9D9FB /* KPICDEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICDEntity.h; sourceTree = "<group>"; };
+		322C6E541CF5BDC200D9D9FB /* KPICDEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICDEntity.m; sourceTree = "<group>"; };
+		322C6E551CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPICDCurrency+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322C6E561CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPICDCurrency+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322C6E571CF5BDC200D9D9FB /* KPICDCurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICDCurrency.h; sourceTree = "<group>"; };
+		322C6E581CF5BDC200D9D9FB /* KPICDCurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICDCurrency.m; sourceTree = "<group>"; };
+		322C6E591CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPICDSurroundingPeriodData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322C6E5A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPICDSurroundingPeriodData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322C6E5B1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICDSurroundingPeriodData.h; sourceTree = "<group>"; };
+		322C6E5C1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICDSurroundingPeriodData.m; sourceTree = "<group>"; };
+		322C6E5D1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPICDValue+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322C6E5E1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPICDValue+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322C6E5F1CF5BDC200D9D9FB /* KPICDValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICDValue.h; sourceTree = "<group>"; };
+		322C6E601CF5BDC200D9D9FB /* KPICDValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICDValue.m; sourceTree = "<group>"; };
+		322C6E611CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KPICDTimePeriod+CoreDataProperties.h"; sourceTree = "<group>"; };
+		322C6E621CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KPICDTimePeriod+CoreDataProperties.m"; sourceTree = "<group>"; };
+		322C6E631CF5BDC200D9D9FB /* KPICDTimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICDTimePeriod.h; sourceTree = "<group>"; };
+		322C6E641CF5BDC200D9D9FB /* KPICDTimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICDTimePeriod.m; sourceTree = "<group>"; };
+		322C6E751CF5BE2B00D9D9FB /* KPIEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPIEntity.h; sourceTree = "<group>"; };
+		322C6E761CF5BE2B00D9D9FB /* KPIEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPIEntity.m; sourceTree = "<group>"; };
+		322C6E791CF5BE4300D9D9FB /* KPICurrency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICurrency.h; sourceTree = "<group>"; };
+		322C6E7A1CF5BE4300D9D9FB /* KPICurrency.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICurrency.m; sourceTree = "<group>"; };
+		322C6E7D1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPISurroundingPeriodData.h; sourceTree = "<group>"; };
+		322C6E7E1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPISurroundingPeriodData.m; sourceTree = "<group>"; };
+		322C6E811CF5BE9100D9D9FB /* KPIValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPIValue.h; sourceTree = "<group>"; };
+		322C6E821CF5BE9100D9D9FB /* KPIValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPIValue.m; sourceTree = "<group>"; };
+		322C6E851CF5BEAA00D9D9FB /* KPITimePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPITimePeriod.h; sourceTree = "<group>"; };
+		322C6E861CF5BEAA00D9D9FB /* KPITimePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPITimePeriod.m; sourceTree = "<group>"; };
+		322C6E891CF5CAB300D9D9FB /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		322C6E8A1CF5CAB300D9D9FB /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		322C6E8E1CF5D2CE00D9D9FB /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		322C6E8F1CF5D2CE00D9D9FB /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		322C6E921CF5D73500D9D9FB /* NSNumber+CheckNSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CheckNSNull.h"; sourceTree = "<group>"; };
+		322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CheckNSNull.m"; sourceTree = "<group>"; };
+		322C6E941CF5D73500D9D9FB /* NSString+CheckNSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CheckNSNull.h"; sourceTree = "<group>"; };
+		322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CheckNSNull.m"; sourceTree = "<group>"; };
+		322C6E981CF5D74900D9D9FB /* NSDictionary+CheckNSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CheckNSNull.h"; sourceTree = "<group>"; };
+		322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CheckNSNull.m"; sourceTree = "<group>"; };
+		6D9157BB325FD78B89DC0D45 /* Pods-codeChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeChallange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange.debug.xcconfig"; sourceTree = "<group>"; };
+		9FBAFA70DB11481C096A50B5 /* libPods-codeChallange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codeChallange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAC63F04A66BBFC10E4136EB /* Pods-codeChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeChallange.release.xcconfig"; path = "Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7279FEAAF7CAB61C1B2AB8 /* libPods-codeChallange.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +144,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FC82223DE064BC94897EEBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FBAFA70DB11481C096A50B5 /* libPods-codeChallange.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		322C6DB41CF5A49F00D9D9FB = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +159,8 @@
 				322C6DDC1CF5A49F00D9D9FB /* codeChallangeTests */,
 				322C6DE71CF5A4A000D9D9FB /* codeChallangeUITests */,
 				322C6DBE1CF5A49F00D9D9FB /* Products */,
+				CB6132F48D6342E577AC6F17 /* Pods */,
+				0FC82223DE064BC94897EEBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +177,15 @@
 		322C6DBF1CF5A49F00D9D9FB /* codeChallange */ = {
 			isa = PBXGroup;
 			children = (
+				322C6E8C1CF5D29A00D9D9FB /* CoreDataSourceCode */,
+				322C6E881CF5CA9800D9D9FB /* ViewControllers */,
+				322C6E321CF5BD0800D9D9FB /* Models */,
 				322C6DC31CF5A49F00D9D9FB /* AppDelegate.h */,
 				322C6DC41CF5A49F00D9D9FB /* AppDelegate.m */,
-				322C6DC61CF5A49F00D9D9FB /* ViewController.h */,
-				322C6DC71CF5A49F00D9D9FB /* ViewController.m */,
 				322C6DC91CF5A49F00D9D9FB /* Main.storyboard */,
 				322C6DCF1CF5A49F00D9D9FB /* Assets.xcassets */,
 				322C6DD11CF5A49F00D9D9FB /* LaunchScreen.storyboard */,
 				322C6DD41CF5A49F00D9D9FB /* Info.plist */,
-				322C6DCC1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld */,
 				322C6DC01CF5A49F00D9D9FB /* Supporting Files */,
 			);
 			path = codeChallange;
@@ -120,7 +194,14 @@
 		322C6DC01CF5A49F00D9D9FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				322C6E981CF5D74900D9D9FB /* NSDictionary+CheckNSNull.h */,
+				322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */,
+				322C6E921CF5D73500D9D9FB /* NSNumber+CheckNSNull.h */,
+				322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */,
+				322C6E941CF5D73500D9D9FB /* NSString+CheckNSNull.h */,
+				322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */,
 				322C6DC11CF5A49F00D9D9FB /* main.m */,
+				322C6DF71CF5A69400D9D9FB /* Example.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +224,167 @@
 			path = codeChallangeUITests;
 			sourceTree = "<group>";
 		};
+		322C6DF61CF5A65D00D9D9FB /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E6F1CF5BDD400D9D9FB /* KPICDEntity */,
+				322C6E701CF5BDDC00D9D9FB /* KPICDCurrency */,
+				322C6E711CF5BDED00D9D9FB /* KPICDSurroundingPeriodData */,
+				322C6E721CF5BDFC00D9D9FB /* KPICDValue */,
+				322C6E731CF5BE0300D9D9FB /* KPICDTimePeriod */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		322C6E321CF5BD0800D9D9FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E841CF5BE9900D9D9FB /* KPITimePeriod */,
+				322C6E801CF5BE8300D9D9FB /* KPIValue */,
+				322C6E7C1CF5BE6900D9D9FB /* KPISurroundingPeriodData */,
+				322C6E781CF5BE3800D9D9FB /* KPICurrency */,
+				322C6E741CF5BE0B00D9D9FB /* KPIEntity */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		322C6E6F1CF5BDD400D9D9FB /* KPICDEntity */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E511CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.h */,
+				322C6E521CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m */,
+				322C6E531CF5BDC200D9D9FB /* KPICDEntity.h */,
+				322C6E541CF5BDC200D9D9FB /* KPICDEntity.m */,
+			);
+			name = KPICDEntity;
+			sourceTree = "<group>";
+		};
+		322C6E701CF5BDDC00D9D9FB /* KPICDCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E551CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.h */,
+				322C6E561CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m */,
+				322C6E571CF5BDC200D9D9FB /* KPICDCurrency.h */,
+				322C6E581CF5BDC200D9D9FB /* KPICDCurrency.m */,
+			);
+			name = KPICDCurrency;
+			sourceTree = "<group>";
+		};
+		322C6E711CF5BDED00D9D9FB /* KPICDSurroundingPeriodData */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E591CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.h */,
+				322C6E5A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m */,
+				322C6E5B1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.h */,
+				322C6E5C1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m */,
+			);
+			name = KPICDSurroundingPeriodData;
+			sourceTree = "<group>";
+		};
+		322C6E721CF5BDFC00D9D9FB /* KPICDValue */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E5D1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.h */,
+				322C6E5E1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m */,
+				322C6E5F1CF5BDC200D9D9FB /* KPICDValue.h */,
+				322C6E601CF5BDC200D9D9FB /* KPICDValue.m */,
+			);
+			name = KPICDValue;
+			sourceTree = "<group>";
+		};
+		322C6E731CF5BE0300D9D9FB /* KPICDTimePeriod */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E611CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.h */,
+				322C6E621CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m */,
+				322C6E631CF5BDC200D9D9FB /* KPICDTimePeriod.h */,
+				322C6E641CF5BDC200D9D9FB /* KPICDTimePeriod.m */,
+			);
+			name = KPICDTimePeriod;
+			sourceTree = "<group>";
+		};
+		322C6E741CF5BE0B00D9D9FB /* KPIEntity */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E751CF5BE2B00D9D9FB /* KPIEntity.h */,
+				322C6E761CF5BE2B00D9D9FB /* KPIEntity.m */,
+			);
+			name = KPIEntity;
+			sourceTree = "<group>";
+		};
+		322C6E781CF5BE3800D9D9FB /* KPICurrency */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E791CF5BE4300D9D9FB /* KPICurrency.h */,
+				322C6E7A1CF5BE4300D9D9FB /* KPICurrency.m */,
+			);
+			name = KPICurrency;
+			sourceTree = "<group>";
+		};
+		322C6E7C1CF5BE6900D9D9FB /* KPISurroundingPeriodData */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E7D1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.h */,
+				322C6E7E1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.m */,
+			);
+			name = KPISurroundingPeriodData;
+			sourceTree = "<group>";
+		};
+		322C6E801CF5BE8300D9D9FB /* KPIValue */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E811CF5BE9100D9D9FB /* KPIValue.h */,
+				322C6E821CF5BE9100D9D9FB /* KPIValue.m */,
+			);
+			name = KPIValue;
+			sourceTree = "<group>";
+		};
+		322C6E841CF5BE9900D9D9FB /* KPITimePeriod */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E851CF5BEAA00D9D9FB /* KPITimePeriod.h */,
+				322C6E861CF5BEAA00D9D9FB /* KPITimePeriod.m */,
+			);
+			name = KPITimePeriod;
+			sourceTree = "<group>";
+		};
+		322C6E881CF5CA9800D9D9FB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E891CF5CAB300D9D9FB /* DashboardViewController.h */,
+				322C6E8A1CF5CAB300D9D9FB /* DashboardViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		322C6E8C1CF5D29A00D9D9FB /* CoreDataSourceCode */ = {
+			isa = PBXGroup;
+			children = (
+				322C6DCC1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld */,
+				322C6E8D1CF5D2A800D9D9FB /* CoreDataManager */,
+				322C6DF61CF5A65D00D9D9FB /* CoreDataModels */,
+			);
+			name = CoreDataSourceCode;
+			sourceTree = "<group>";
+		};
+		322C6E8D1CF5D2A800D9D9FB /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E8E1CF5D2CE00D9D9FB /* CoreDataManager.h */,
+				322C6E8F1CF5D2CE00D9D9FB /* CoreDataManager.m */,
+			);
+			name = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		CB6132F48D6342E577AC6F17 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9157BB325FD78B89DC0D45 /* Pods-codeChallange.debug.xcconfig */,
+				EAC63F04A66BBFC10E4136EB /* Pods-codeChallange.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +392,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 322C6DED1CF5A4A000D9D9FB /* Build configuration list for PBXNativeTarget "codeChallange" */;
 			buildPhases = (
+				5B6CA44060A4E6522EF3A898 /* Check Pods Manifest.lock */,
 				322C6DB91CF5A49F00D9D9FB /* Sources */,
 				322C6DBA1CF5A49F00D9D9FB /* Frameworks */,
 				322C6DBB1CF5A49F00D9D9FB /* Resources */,
+				1578ACB5E8E50C20CD0B08B8 /* Embed Pods Frameworks */,
+				AF76A0221519933FEA548430 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,6 +491,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322C6DF81CF5A69400D9D9FB /* Example.json in Resources */,
 				322C6DD31CF5A49F00D9D9FB /* LaunchScreen.storyboard in Resources */,
 				322C6DD01CF5A49F00D9D9FB /* Assets.xcassets in Resources */,
 				322C6DCB1CF5A49F00D9D9FB /* Main.storyboard in Resources */,
@@ -268,15 +514,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1578ACB5E8E50C20CD0B08B8 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B6CA44060A4E6522EF3A898 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AF76A0221519933FEA548430 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		322C6DB91CF5A49F00D9D9FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322C6E871CF5BEAA00D9D9FB /* KPITimePeriod.m in Sources */,
+				322C6E691CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m in Sources */,
+				322C6E901CF5D2CE00D9D9FB /* CoreDataManager.m in Sources */,
+				322C6E8B1CF5CAB300D9D9FB /* DashboardViewController.m in Sources */,
+				322C6E681CF5BDC200D9D9FB /* KPICDCurrency.m in Sources */,
+				322C6E671CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m in Sources */,
+				322C6E771CF5BE2B00D9D9FB /* KPIEntity.m in Sources */,
+				322C6E9A1CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m in Sources */,
+				322C6E831CF5BE9100D9D9FB /* KPIValue.m in Sources */,
+				322C6E961CF5D73500D9D9FB /* NSNumber+CheckNSNull.m in Sources */,
 				322C6DCE1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld in Sources */,
-				322C6DC81CF5A49F00D9D9FB /* ViewController.m in Sources */,
+				322C6E7F1CF5BE7A00D9D9FB /* KPISurroundingPeriodData.m in Sources */,
+				322C6E6E1CF5BDC200D9D9FB /* KPICDTimePeriod.m in Sources */,
+				322C6E971CF5D73500D9D9FB /* NSString+CheckNSNull.m in Sources */,
+				322C6E7B1CF5BE4300D9D9FB /* KPICurrency.m in Sources */,
+				322C6E6A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m in Sources */,
 				322C6DC51CF5A49F00D9D9FB /* AppDelegate.m in Sources */,
+				322C6E6C1CF5BDC200D9D9FB /* KPICDValue.m in Sources */,
+				322C6E6B1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m in Sources */,
 				322C6DC21CF5A49F00D9D9FB /* main.m in Sources */,
+				322C6E661CF5BDC200D9D9FB /* KPICDEntity.m in Sources */,
+				322C6E651CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m in Sources */,
+				322C6E6D1CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +730,7 @@
 		};
 		322C6DEE1CF5A4A000D9D9FB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D9157BB325FD78B89DC0D45 /* Pods-codeChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = codeChallange/Info.plist;
@@ -428,6 +742,7 @@
 		};
 		322C6DEF1CF5A4A000D9D9FB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAC63F04A66BBFC10E4136EB /* Pods-codeChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = codeChallange/Info.plist;
@@ -502,6 +817,7 @@
 				322C6DEF1CF5A4A000D9D9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		322C6DF01CF5A4A000D9D9FB /* Build configuration list for PBXNativeTarget "codeChallangeTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +826,7 @@
 				322C6DF21CF5A4A000D9D9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		322C6DF31CF5A4A000D9D9FB /* Build configuration list for PBXNativeTarget "codeChallangeUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +835,7 @@
 				322C6DF51CF5A4A000D9D9FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

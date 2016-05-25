@@ -1,0 +1,54 @@
+[ {
+ "code" : "GSL",
+ "label" : "Gross Sales",
+ "kpiValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 6000.00
+ },
+ "timePeriod" : {
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "surroundingPeriodData" : {
+ "timePeriod" : {
+ "periodEnd" : "2016-05-23T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 8
+ },
+ "minValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 534.97
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "maxValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 31200.00
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "avgValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 10935.69
+ },
+ "quantity" : 8
+ }
+ }
+ } ]
