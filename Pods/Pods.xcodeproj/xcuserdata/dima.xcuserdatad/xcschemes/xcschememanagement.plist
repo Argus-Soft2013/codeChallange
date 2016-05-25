@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>BIZSliderView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-codeChallange.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,7 +22,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>8A08BE01113C9581A6FF8E220E704666</key>
+		<key>3592BF8A381E242EA34A95A04E99A8FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37A48E2C3281AFF2C1015AB67989A8A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

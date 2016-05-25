@@ -8,11 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+@class KPICDTimePeriod;
+
 @interface KPITimePeriod : NSObject
 
 @property (nonatomic, strong) NSString *sliceUnit;
 @property (nonatomic, strong) NSNumber *sliceUnitCount;
 @property (nonatomic, strong) NSNumber *sliceCount;
 @property (nonatomic, strong) NSDate *periodEnd;
+
+-(instancetype)initWithTimePeriod:(KPICDTimePeriod *)timePeriod;
+
 
 @end

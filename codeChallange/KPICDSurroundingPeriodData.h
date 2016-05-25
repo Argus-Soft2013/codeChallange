@@ -19,6 +19,8 @@ static NSString *kKPICDSurroundingPeriodData = @"KPICDSurroundingPeriodData";
 
 +(instancetype)surroundingPeriodDataWithDictionary:(NSDictionary *)dict;
 
+-(void)updateWithDictionary:(NSDictionary *)dict;
+
 @end
 
 NS_ASSUME_NONNULL_END

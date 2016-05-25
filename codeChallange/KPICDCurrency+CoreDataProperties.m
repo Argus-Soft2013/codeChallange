@@ -15,6 +15,6 @@
 
 @dynamic unit;
 @dynamic value;
-@dynamic amountInAggregationCurrency;
+@dynamic kpiValue;
 
 @end

@@ -17,5 +17,6 @@
 @dynamic label;
 @dynamic kpiValue;
 @dynamic surroundingPeriodData;
+@dynamic deleted;
 
 @end

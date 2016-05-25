@@ -37,6 +37,11 @@
 		322C6E961CF5D73500D9D9FB /* NSNumber+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */; };
 		322C6E971CF5D73500D9D9FB /* NSString+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */; };
 		322C6E9A1CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */; };
+		322C6E9F1CF602F100D9D9FB /* DashboardTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6E9E1CF602F100D9D9FB /* DashboardTableViewDataSource.m */; };
+		322C6EA31CF613EA00D9D9FB /* KPICell.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6EA11CF613EA00D9D9FB /* KPICell.m */; };
+		322C6EA41CF613EA00D9D9FB /* KPICell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 322C6EA21CF613EA00D9D9FB /* KPICell.xib */; };
+		322C6EA91CF63FD700D9D9FB /* DeletedKPIsVCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6EA81CF63FD700D9D9FB /* DeletedKPIsVCView.m */; };
+		322C6EAD1CF6413100D9D9FB /* DeletedDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6EAC1CF6413100D9D9FB /* DeletedDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +118,15 @@
 		322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CheckNSNull.m"; sourceTree = "<group>"; };
 		322C6E981CF5D74900D9D9FB /* NSDictionary+CheckNSNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CheckNSNull.h"; sourceTree = "<group>"; };
 		322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CheckNSNull.m"; sourceTree = "<group>"; };
+		322C6E9D1CF602F100D9D9FB /* DashboardTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardTableViewDataSource.h; sourceTree = "<group>"; };
+		322C6E9E1CF602F100D9D9FB /* DashboardTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardTableViewDataSource.m; sourceTree = "<group>"; };
+		322C6EA01CF613EA00D9D9FB /* KPICell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KPICell.h; sourceTree = "<group>"; };
+		322C6EA11CF613EA00D9D9FB /* KPICell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KPICell.m; sourceTree = "<group>"; };
+		322C6EA21CF613EA00D9D9FB /* KPICell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KPICell.xib; sourceTree = "<group>"; };
+		322C6EA71CF63FD700D9D9FB /* DeletedKPIsVCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeletedKPIsVCView.h; sourceTree = "<group>"; };
+		322C6EA81CF63FD700D9D9FB /* DeletedKPIsVCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeletedKPIsVCView.m; sourceTree = "<group>"; };
+		322C6EAB1CF6413100D9D9FB /* DeletedDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeletedDataSource.h; sourceTree = "<group>"; };
+		322C6EAC1CF6413100D9D9FB /* DeletedDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeletedDataSource.m; sourceTree = "<group>"; };
 		6D9157BB325FD78B89DC0D45 /* Pods-codeChallange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeChallange.debug.xcconfig"; path = "Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange.debug.xcconfig"; sourceTree = "<group>"; };
 		9FBAFA70DB11481C096A50B5 /* libPods-codeChallange.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-codeChallange.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC63F04A66BBFC10E4136EB /* Pods-codeChallange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeChallange.release.xcconfig"; path = "Pods/Target Support Files/Pods-codeChallange/Pods-codeChallange.release.xcconfig"; sourceTree = "<group>"; };
@@ -177,9 +191,9 @@
 		322C6DBF1CF5A49F00D9D9FB /* codeChallange */ = {
 			isa = PBXGroup;
 			children = (
-				322C6E8C1CF5D29A00D9D9FB /* CoreDataSourceCode */,
+				322C6E9B1CF5F83300D9D9FB /* ResponseParserSource */,
+				322C6E8C1CF5D29A00D9D9FB /* CoreDataSource */,
 				322C6E881CF5CA9800D9D9FB /* ViewControllers */,
-				322C6E321CF5BD0800D9D9FB /* Models */,
 				322C6DC31CF5A49F00D9D9FB /* AppDelegate.h */,
 				322C6DC41CF5A49F00D9D9FB /* AppDelegate.m */,
 				322C6DC91CF5A49F00D9D9FB /* Main.storyboard */,
@@ -351,20 +365,20 @@
 		322C6E881CF5CA9800D9D9FB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				322C6E891CF5CAB300D9D9FB /* DashboardViewController.h */,
-				322C6E8A1CF5CAB300D9D9FB /* DashboardViewController.m */,
+				322C6EA61CF63FAF00D9D9FB /* DeletedKPIs */,
+				322C6E9C1CF602D200D9D9FB /* DashboardViewController */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
-		322C6E8C1CF5D29A00D9D9FB /* CoreDataSourceCode */ = {
+		322C6E8C1CF5D29A00D9D9FB /* CoreDataSource */ = {
 			isa = PBXGroup;
 			children = (
 				322C6DCC1CF5A49F00D9D9FB /* codeChallange.xcdatamodeld */,
 				322C6E8D1CF5D2A800D9D9FB /* CoreDataManager */,
 				322C6DF61CF5A65D00D9D9FB /* CoreDataModels */,
 			);
-			name = CoreDataSourceCode;
+			name = CoreDataSource;
 			sourceTree = "<group>";
 		};
 		322C6E8D1CF5D2A800D9D9FB /* CoreDataManager */ = {
@@ -374,6 +388,47 @@
 				322C6E8F1CF5D2CE00D9D9FB /* CoreDataManager.m */,
 			);
 			name = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		322C6E9B1CF5F83300D9D9FB /* ResponseParserSource */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E321CF5BD0800D9D9FB /* Models */,
+			);
+			name = ResponseParserSource;
+			sourceTree = "<group>";
+		};
+		322C6E9C1CF602D200D9D9FB /* DashboardViewController */ = {
+			isa = PBXGroup;
+			children = (
+				322C6E891CF5CAB300D9D9FB /* DashboardViewController.h */,
+				322C6E8A1CF5CAB300D9D9FB /* DashboardViewController.m */,
+				322C6E9D1CF602F100D9D9FB /* DashboardTableViewDataSource.h */,
+				322C6E9E1CF602F100D9D9FB /* DashboardTableViewDataSource.m */,
+				322C6EA51CF613F000D9D9FB /* KPICell */,
+			);
+			name = DashboardViewController;
+			sourceTree = "<group>";
+		};
+		322C6EA51CF613F000D9D9FB /* KPICell */ = {
+			isa = PBXGroup;
+			children = (
+				322C6EA01CF613EA00D9D9FB /* KPICell.h */,
+				322C6EA11CF613EA00D9D9FB /* KPICell.m */,
+				322C6EA21CF613EA00D9D9FB /* KPICell.xib */,
+			);
+			name = KPICell;
+			sourceTree = "<group>";
+		};
+		322C6EA61CF63FAF00D9D9FB /* DeletedKPIs */ = {
+			isa = PBXGroup;
+			children = (
+				322C6EA71CF63FD700D9D9FB /* DeletedKPIsVCView.h */,
+				322C6EA81CF63FD700D9D9FB /* DeletedKPIsVCView.m */,
+				322C6EAB1CF6413100D9D9FB /* DeletedDataSource.h */,
+				322C6EAC1CF6413100D9D9FB /* DeletedDataSource.m */,
+			);
+			name = DeletedKPIs;
 			sourceTree = "<group>";
 		};
 		CB6132F48D6342E577AC6F17 /* Pods */ = {
@@ -495,6 +550,7 @@
 				322C6DD31CF5A49F00D9D9FB /* LaunchScreen.storyboard in Resources */,
 				322C6DD01CF5A49F00D9D9FB /* Assets.xcassets in Resources */,
 				322C6DCB1CF5A49F00D9D9FB /* Main.storyboard in Resources */,
+				322C6EA41CF613EA00D9D9FB /* KPICell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,6 +628,7 @@
 				322C6E901CF5D2CE00D9D9FB /* CoreDataManager.m in Sources */,
 				322C6E8B1CF5CAB300D9D9FB /* DashboardViewController.m in Sources */,
 				322C6E681CF5BDC200D9D9FB /* KPICDCurrency.m in Sources */,
+				322C6EA31CF613EA00D9D9FB /* KPICell.m in Sources */,
 				322C6E671CF5BDC200D9D9FB /* KPICDCurrency+CoreDataProperties.m in Sources */,
 				322C6E771CF5BE2B00D9D9FB /* KPIEntity.m in Sources */,
 				322C6E9A1CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m in Sources */,
@@ -582,6 +639,8 @@
 				322C6E6E1CF5BDC200D9D9FB /* KPICDTimePeriod.m in Sources */,
 				322C6E971CF5D73500D9D9FB /* NSString+CheckNSNull.m in Sources */,
 				322C6E7B1CF5BE4300D9D9FB /* KPICurrency.m in Sources */,
+				322C6EAD1CF6413100D9D9FB /* DeletedDataSource.m in Sources */,
+				322C6E9F1CF602F100D9D9FB /* DashboardTableViewDataSource.m in Sources */,
 				322C6E6A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m in Sources */,
 				322C6DC51CF5A49F00D9D9FB /* AppDelegate.m in Sources */,
 				322C6E6C1CF5BDC200D9D9FB /* KPICDValue.m in Sources */,
@@ -589,6 +648,7 @@
 				322C6DC21CF5A49F00D9D9FB /* main.m in Sources */,
 				322C6E661CF5BDC200D9D9FB /* KPICDEntity.m in Sources */,
 				322C6E651CF5BDC200D9D9FB /* KPICDEntity+CoreDataProperties.m in Sources */,
+				322C6EA91CF63FD700D9D9FB /* DeletedKPIsVCView.m in Sources */,
 				322C6E6D1CF5BDC200D9D9FB /* KPICDTimePeriod+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

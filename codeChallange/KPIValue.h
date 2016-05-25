@@ -8,12 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
-@class KPICurrency, KPITimePeriod;
+@class KPICurrency, KPITimePeriod, KPICDValue;
 
 @interface KPIValue : NSObject
 
 @property (strong, nonatomic) KPICurrency *amountInAggregationCurrency;
 @property (strong, nonatomic) KPITimePeriod *timePeriod;
 @property (strong, nonatomic) NSNumber *quantity;
+
+-(instancetype)initWithValue:(KPICDValue *)value;
 
 @end

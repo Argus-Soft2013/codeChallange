@@ -78,7 +78,6 @@ static CoreDataManager *manager = nil;
 
 }
 
-
 //==============================================================================
 
 
@@ -96,9 +95,23 @@ static CoreDataManager *manager = nil;
 //==============================================================================
 
 
+-(KPICDSurroundingPeriodData *)newKPICDSurroundingPeriodData
+{
+    KPICDSurroundingPeriodData *newKPICDSurroundingPeriodData = [NSEntityDescription insertNewObjectForEntityForName:kKPICDSurroundingPeriodData inManagedObjectContext:self.managedObjectContext];
+    [self saveContext];
+    
+    return newKPICDSurroundingPeriodData;
+}
+
+
+//==============================================================================
+
+
 -(KPICDValue *)newKPIValue
 {
     KPICDValue *newKPIValue = [NSEntityDescription insertNewObjectForEntityForName:kKPICDValue inManagedObjectContext:self.managedObjectContext];
+    [self saveContext];
+    
     return newKPIValue;
 }
 
@@ -106,10 +119,44 @@ static CoreDataManager *manager = nil;
 //==============================================================================
 
 
--(KPICDSurroundingPeriodData *)newSurroundingPeriodData
+-(KPICDTimePeriod *)newKPITimePeriod
 {
-    KPICDSurroundingPeriodData *newSurroundingPeriodData = [NSEntityDescription insertNewObjectForEntityForName:kKPICDSurroundingPeriodData inManagedObjectContext:self.managedObjectContext];
-    return newSurroundingPeriodData;
+    KPICDTimePeriod *newKPITimePeriod = [NSEntityDescription insertNewObjectForEntityForName:kKPICDTimePeriod inManagedObjectContext:self.managedObjectContext];
+    [self saveContext];
+    
+    return newKPITimePeriod;
+}
+
+
+//==============================================================================
+
+
+-(KPICDCurrency *)newKPICurrency
+{
+    KPICDCurrency *newKPICurrency = [NSEntityDescription insertNewObjectForEntityForName:kKPICDCurrency inManagedObjectContext:self.managedObjectContext];
+    [self saveContext];
+    
+    return newKPICurrency;
+}
+
+
+//==============================================================================
+
+
+-(NSArray *)kpiNotDeletedItems
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.deleted = %@",@NO];
+    return [self findAllEntityObjects:kKPICDEntity byPredicate:predicate sortDescriptors:nil];
+}
+
+
+//==============================================================================
+
+
+-(NSArray *)kpiDeletedItems
+{
+    NSPredicate *predicate = [NSPredicate predicateWithFormat:@"SELF.deleted = %@",@YES];
+    return [self findAllEntityObjects:kKPICDEntity byPredicate:predicate sortDescriptors:nil];
 }
 
 

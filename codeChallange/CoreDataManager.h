@@ -26,4 +26,16 @@
 
 -(KPICDEntity *)kpiEntityWithCode:(NSString *)code;
 
+-(KPICDSurroundingPeriodData *)newKPICDSurroundingPeriodData;
+
+-(KPICDValue *)newKPIValue;
+
+-(KPICDTimePeriod *)newKPITimePeriod;
+
+-(KPICDCurrency *)newKPICurrency;
+
+-(NSArray *)kpiNotDeletedItems;
+
+-(NSArray *)kpiDeletedItems;
+
 @end
