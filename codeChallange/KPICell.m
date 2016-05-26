@@ -65,7 +65,7 @@
 -(void)drawRect:(CGRect)rect
 {
     [super drawRect:rect];
-    
+    [self configurateGraphView];
 }
 
 
