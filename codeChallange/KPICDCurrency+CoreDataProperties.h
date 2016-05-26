@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nullable, nonatomic, retain) NSString *unit;
 @property (nullable, nonatomic, retain) NSNumber *value;
-@property (nullable, nonatomic, retain) KPICDValue *amountInAggregationCurrency;
+@property (nullable, nonatomic, retain) KPICDValue *kpiValue;
 
 @end
 

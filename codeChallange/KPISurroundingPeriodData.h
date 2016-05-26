@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class KPIValue, KPITimePeriod;
+@class KPIValue, KPITimePeriod, KPICDSurroundingPeriodData;
 
 @interface KPISurroundingPeriodData : NSObject
 
@@ -16,5 +16,7 @@
 @property (nonatomic, strong) KPIValue *minValue;
 @property (nonatomic, strong) KPIValue *avgValue;
 @property (nonatomic, strong) KPITimePeriod *timePeriod;
+
+-(instancetype)initWithSurroundingPeriodData:(KPICDSurroundingPeriodData *)surroundingPeriodData;
 
 @end

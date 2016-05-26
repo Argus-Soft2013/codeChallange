@@ -16,7 +16,7 @@
 
 @implementation KPICDEntity
 
-+(instancetype)kpientityWithDictionary:(NSDictionary *)dict
++(instancetype)kpiCDEntityWithDictionary:(NSDictionary *)dict
 {
     NSParameterAssert(dict);
     
@@ -30,15 +30,22 @@
     newEntity.code = code;
     newEntity.label = label;
     
-    if (![NSDictionary isDictionaryEmpty:dict[@"kpiValue"]])
+    if (newEntity.surroundingPeriodData)
+        [newEntity.surroundingPeriodData updateWithDictionary:dict[@"surroundingPeriodData"]];
+    else
+    {
+        newEntity.surroundingPeriodData = [KPICDSurroundingPeriodData surroundingPeriodDataWithDictionary:dict[@"surroundingPeriodData"]];
+        newEntity.surroundingPeriodData.kpiEntity = newEntity;
+    }
+    if (newEntity.kpiValue)
+        [newEntity.kpiValue updateWithDictionary:dict[@"kpiValue"]];
+    else
     {
         newEntity.kpiValue = [KPICDValue kpiCDValueWithDictionary:dict[@"kpiValue"]];
         newEntity.kpiValue.kpiEntity = newEntity;
     }
-    if (![NSDictionary isDictionaryEmpty:dict[@"surroundingPeriodData"]]){
-        newEntity.surroundingPeriodData = [KPICDSurroundingPeriodData surroundingPeriodDataWithDictionary:dict[@"surroundingPeriodData"]];
-        newEntity.surroundingPeriodData.kpiEntity = newEntity;
-    }
+    
+    [[CoreDataManager shared] saveContext];
     
     return newEntity;
 }
@@ -51,6 +58,7 @@
 {
     self.code = @"";
     self.label = @"";
+    self.deleted = @NO;
 }
 
 @end

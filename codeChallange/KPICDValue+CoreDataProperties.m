@@ -19,6 +19,6 @@
 @dynamic surroundingPeriodDataAvg;
 @dynamic amountInAggregationCurrency;
 @dynamic timePeriod;
-@dynamic kpiValue;
+@dynamic kpiEntity;
 
 @end

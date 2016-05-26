@@ -13,9 +13,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+static NSString *const kKPICDCurrency = @"KPICDCurrency";
+
 @interface KPICDCurrency : NSManagedObject
 
-// Insert code here to declare functionality of your managed object subclass
++(instancetype)kpiCDCurrencyWithDictionary:(NSDictionary *)dict;
+
+-(void)updateWithDictionary:(NSDictionary *)dict;
 
 @end
 

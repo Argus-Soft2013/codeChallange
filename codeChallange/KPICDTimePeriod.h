@@ -13,9 +13,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+static NSString *const kKPICDTimePeriod = @"KPICDTimePeriod";
+
 @interface KPICDTimePeriod : NSManagedObject
 
-// Insert code here to declare functionality of your managed object subclass
++(instancetype)kpiCDTimePretiodWithDictionary:(NSDictionary *)dict;
+
+-(void)updateWithDictionary:(NSDictionary *)dict;
 
 @end
 

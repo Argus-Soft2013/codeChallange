@@ -8,9 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+@class KPICDCurrency;
+
 @interface KPICurrency : NSObject
 
 @property (nonatomic, strong) NSString *unit;
 @property (nonatomic, strong) NSNumber *value;
+
+-(instancetype)initWithCurrency:(KPICDCurrency *)currency;
 
 @end

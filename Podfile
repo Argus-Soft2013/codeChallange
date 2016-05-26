@@ -5,6 +5,7 @@
 
 target 'codeChallange' do
 pod 'AFNetworking', '~> 3.0'
+pod 'BIZSliderView' 
 end
 
 target 'codeChallangeTests' do

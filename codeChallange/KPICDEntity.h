@@ -18,7 +18,7 @@ static NSString *kKPICDEntity = @"KPICDEntity";
 @interface KPICDEntity : NSManagedObject
 
 
-+(instancetype)entityWithDictionary:(NSDictionary *)dict;
++(instancetype)kpiCDEntityWithDictionary:(NSDictionary *)dict;
 
 -(void)initByDefault;
 
