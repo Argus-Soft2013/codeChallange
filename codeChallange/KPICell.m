@@ -21,6 +21,7 @@
     __weak IBOutlet UILabel *_nameLable;
     __weak IBOutlet UILabel *_selectedTimePeriodLabel;
     __weak IBOutlet UILabel *_valueLable;
+    BIZSliderView *sliderView;
 }
 @end
 
@@ -41,7 +42,9 @@
 
 -(void)configurateGraphView
 {
-    BIZSliderView *sliderView = [[BIZSliderView alloc] initWithFrame:CGRectMake(self.bounds.size.width * 0.025, 25, self.bounds.size.width * 0.95, 60)];
+    [sliderView removeFromSuperview];
+    sliderView = nil;
+    sliderView = [[BIZSliderView alloc] initWithFrame:CGRectMake(self.bounds.size.width * 0.025, 25, self.bounds.size.width * 0.95, 60)];
     sliderView.userInteractionEnabled = NO;
     [sliderView setActiveColor:[UIColor greenColor] inactiveColor:[UIColor redColor] handlerColor:[UIColor greenColor] borderColor:[UIColor lightGrayColor]];
     sliderView.backgroundColor = [UIColor clearColor];

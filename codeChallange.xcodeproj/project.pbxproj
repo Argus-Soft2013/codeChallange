@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C7279FEAAF7CAB61C1B2AB8 /* libPods-codeChallange.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBAFA70DB11481C096A50B5 /* libPods-codeChallange.a */; };
+		32066C601CF6E049004F1865 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 32066C5F1CF6E049004F1865 /* LoginVC.m */; };
+		32066C651CF6E7B9004F1865 /* PredefinedUser.txt in Resources */ = {isa = PBXBuildFile; fileRef = 32066C641CF6E7B9004F1865 /* PredefinedUser.txt */; };
+		32066C681CF6EAC2004F1865 /* UIViewController+Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = 32066C671CF6EAC2004F1865 /* UIViewController+Alerts.m */; };
 		322C6DC21CF5A49F00D9D9FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DC11CF5A49F00D9D9FB /* main.m */; };
 		322C6DC51CF5A49F00D9D9FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 322C6DC41CF5A49F00D9D9FB /* AppDelegate.m */; };
 		322C6DCB1CF5A49F00D9D9FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322C6DC91CF5A49F00D9D9FB /* Main.storyboard */; };
@@ -62,6 +65,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32066C5E1CF6E049004F1865 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		32066C5F1CF6E049004F1865 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+		32066C641CF6E7B9004F1865 /* PredefinedUser.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PredefinedUser.txt; sourceTree = "<group>"; };
+		32066C661CF6EAC2004F1865 /* UIViewController+Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Alerts.h"; sourceTree = "<group>"; };
+		32066C671CF6EAC2004F1865 /* UIViewController+Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Alerts.m"; sourceTree = "<group>"; };
 		322C6DBD1CF5A49F00D9D9FB /* codeChallange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeChallange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322C6DC11CF5A49F00D9D9FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		322C6DC31CF5A49F00D9D9FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +174,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		32066C691CF6EB92004F1865 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				32066C5E1CF6E049004F1865 /* LoginVC.h */,
+				32066C5F1CF6E049004F1865 /* LoginVC.m */,
+			);
+			name = LoginVC;
+			sourceTree = "<group>";
+		};
+		32066C6A1CF6EC41004F1865 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				32066C661CF6EAC2004F1865 /* UIViewController+Alerts.h */,
+				32066C671CF6EAC2004F1865 /* UIViewController+Alerts.m */,
+				322C6E981CF5D74900D9D9FB /* NSDictionary+CheckNSNull.h */,
+				322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */,
+				322C6E921CF5D73500D9D9FB /* NSNumber+CheckNSNull.h */,
+				322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */,
+				322C6E941CF5D73500D9D9FB /* NSString+CheckNSNull.h */,
+				322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
 		322C6DB41CF5A49F00D9D9FB = {
 			isa = PBXGroup;
 			children = (
@@ -208,14 +240,10 @@
 		322C6DC01CF5A49F00D9D9FB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				322C6E981CF5D74900D9D9FB /* NSDictionary+CheckNSNull.h */,
-				322C6E991CF5D74900D9D9FB /* NSDictionary+CheckNSNull.m */,
-				322C6E921CF5D73500D9D9FB /* NSNumber+CheckNSNull.h */,
-				322C6E931CF5D73500D9D9FB /* NSNumber+CheckNSNull.m */,
-				322C6E941CF5D73500D9D9FB /* NSString+CheckNSNull.h */,
-				322C6E951CF5D73500D9D9FB /* NSString+CheckNSNull.m */,
+				32066C6A1CF6EC41004F1865 /* Tools */,
 				322C6DC11CF5A49F00D9D9FB /* main.m */,
 				322C6DF71CF5A69400D9D9FB /* Example.json */,
+				32066C641CF6E7B9004F1865 /* PredefinedUser.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -367,6 +395,7 @@
 			children = (
 				322C6EA61CF63FAF00D9D9FB /* DeletedKPIs */,
 				322C6E9C1CF602D200D9D9FB /* DashboardViewController */,
+				32066C691CF6EB92004F1865 /* LoginVC */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -510,6 +539,7 @@
 				TargetAttributes = {
 					322C6DBC1CF5A49F00D9D9FB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PH96547EN8;
 					};
 					322C6DD81CF5A49F00D9D9FB = {
 						CreatedOnToolsVersion = 7.3;
@@ -547,6 +577,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				322C6DF81CF5A69400D9D9FB /* Example.json in Resources */,
+				32066C651CF6E7B9004F1865 /* PredefinedUser.txt in Resources */,
 				322C6DD31CF5A49F00D9D9FB /* LaunchScreen.storyboard in Resources */,
 				322C6DD01CF5A49F00D9D9FB /* Assets.xcassets in Resources */,
 				322C6DCB1CF5A49F00D9D9FB /* Main.storyboard in Resources */,
@@ -626,6 +657,7 @@
 				322C6E871CF5BEAA00D9D9FB /* KPITimePeriod.m in Sources */,
 				322C6E691CF5BDC200D9D9FB /* KPICDSurroundingPeriodData+CoreDataProperties.m in Sources */,
 				322C6E901CF5D2CE00D9D9FB /* CoreDataManager.m in Sources */,
+				32066C601CF6E049004F1865 /* LoginVC.m in Sources */,
 				322C6E8B1CF5CAB300D9D9FB /* DashboardViewController.m in Sources */,
 				322C6E681CF5BDC200D9D9FB /* KPICDCurrency.m in Sources */,
 				322C6EA31CF613EA00D9D9FB /* KPICell.m in Sources */,
@@ -642,6 +674,7 @@
 				322C6EAD1CF6413100D9D9FB /* DeletedDataSource.m in Sources */,
 				322C6E9F1CF602F100D9D9FB /* DashboardTableViewDataSource.m in Sources */,
 				322C6E6A1CF5BDC200D9D9FB /* KPICDSurroundingPeriodData.m in Sources */,
+				32066C681CF6EAC2004F1865 /* UIViewController+Alerts.m in Sources */,
 				322C6DC51CF5A49F00D9D9FB /* AppDelegate.m in Sources */,
 				322C6E6C1CF5BDC200D9D9FB /* KPICDValue.m in Sources */,
 				322C6E6B1CF5BDC200D9D9FB /* KPICDValue+CoreDataProperties.m in Sources */,
@@ -744,6 +777,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "12a30e26-cd9a-4214-bf13-b3b667e6b7c9";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -767,7 +801,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Armen Avetisyan (8K7S5F8JUN)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -782,6 +816,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "12a30e26-cd9a-4214-bf13-b3b667e6b7c9";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -793,10 +828,14 @@
 			baseConfigurationReference = 6D9157BB325FD78B89DC0D45 /* Pods-codeChallange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = codeChallange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "argus-soft.codeChallange";
+				PRODUCT_BUNDLE_IDENTIFIER = com.presonalTeam.codeChallange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -805,10 +844,14 @@
 			baseConfigurationReference = EAC63F04A66BBFC10E4136EB /* Pods-codeChallange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = codeChallange/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "argus-soft.codeChallange";
+				PRODUCT_BUNDLE_IDENTIFIER = com.presonalTeam.codeChallange;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

@@ -9,6 +9,8 @@
 #import "DeletedKPIsVCView.h"
 #import "KPICell.h"
 #import "DeletedDataSource.h"
+#import "UIViewController+Alerts.h"
+#import "KPIEntity.h"
 
 @interface DeletedKPIsVCView ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -28,7 +30,6 @@
     _tableView.dataSource = self;
     _tableView.allowsSelection = YES;
     self.automaticallyAdjustsScrollViewInsets = NO;
-    [_tableView registerNib:[UINib nibWithNibName:@"KPICell" bundle:nil] forCellReuseIdentifier:@"KPICell"];
 }
 
 
@@ -38,9 +39,9 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    KPICell *cell = (KPICell*)[tableView dequeueReusableCellWithIdentifier:@"KPICell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
     KPIEntity *entity = [_deletedKPIsDataSource itemForRow:indexPath.row];
-    [cell updateWithKPIEntity:entity];
+    cell.textLabel.text = entity.label;
     return cell;
 }
 
@@ -65,7 +66,7 @@
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 220;
+    return 44;
 }
 
 //==============================================================================
@@ -83,6 +84,7 @@
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     [_deletedKPIsDataSource didSelectRow:indexPath.row];
     [_tableView reloadData];
+    [self showAlerControllerWithTitle:@"KPI restored" message:@""];
 }
 
 @end

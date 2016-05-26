@@ -10,6 +10,7 @@
 #import "DashboardTableViewDataSource.h"
 #import "CoreDataManager.h"
 #import "KPICell.h"
+#import "LoginVC.h"
 
 @interface DashboardViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
@@ -22,7 +23,9 @@
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
+    [self presentViewController:[LoginVC new] animated:YES completion:nil];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     _dataSource = [DashboardTableViewDataSource new];
@@ -114,6 +117,14 @@
 {
     [_dataSource deletItemAtIndexPath:indexPath];
     [_tableView reloadData];
+}
+
+
+//==============================================================================
+
+-(IBAction)logout:(id)sender
+{
+    [self presentViewController:[LoginVC new] animated:YES completion:nil];
 }
 
 @end

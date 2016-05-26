@@ -10,6 +10,7 @@
 #import "CoreDataManager.h"
 #import "KPIEntity.h"
 
+
 @interface DeletedDataSource()
 {
     NSMutableArray <KPIEntity *> *_items;

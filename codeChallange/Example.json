@@ -51,4 +51,220 @@
  "quantity" : 8
  }
  }
- } ]
+ },
+ {
+ "code" : "AGS",
+ "label" : "Argus sales",
+ "kpiValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 4000.00
+ },
+ "timePeriod" : {
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "surroundingPeriodData" : {
+ "timePeriod" : {
+ "periodEnd" : "2016-05-23T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 8
+ },
+ "minValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 400.97
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "maxValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 36200.00
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "avgValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 15000.69
+ },
+ "quantity" : 8
+ }
+ }
+ },
+ {
+ "code" : "SLT",
+ "label" : "Some Sales",
+ "kpiValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 500.0
+ },
+ "timePeriod" : {
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "surroundingPeriodData" : {
+ "timePeriod" : {
+ "periodEnd" : "2016-05-23T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 8
+ },
+ "minValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 200.3
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "maxValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 4500.3
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "avgValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 500
+ },
+ "quantity" : 8
+ }
+ }
+ },
+ {
+ "code" : "NSL",
+ "label" : "New Sales",
+ "kpiValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 7000.00
+ },
+ "timePeriod" : {
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "surroundingPeriodData" : {
+ "timePeriod" : {
+ "periodEnd" : "2016-05-23T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 8
+ },
+ "minValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 344.97
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "maxValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 32200.00
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "avgValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 1990.69
+ },
+ "quantity" : 8
+ }
+ }
+ },
+ {
+ "code" : "TSL",
+ "label" : "Test Sales",
+ "kpiValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 2345.00
+ },
+ "timePeriod" : {
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "surroundingPeriodData" : {
+ "timePeriod" : {
+ "periodEnd" : "2016-05-23T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 8
+ },
+ "minValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 200.97
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "maxValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 5000.00
+ },
+ "timePeriod" : {
+ "periodEnd" : "2016-04-04T10:08:52.645Z",
+ "sliceUnit" : "day",
+ "sliceUnitCount" : 7,
+ "sliceCount" : 1
+ }
+ },
+ "avgValue" : {
+ "amountInAggregationCurrency" : {
+ "unit" : "EUR",
+ "value" : 2000.69
+ },
+ "quantity" : 8
+ }
+ }
+ }]
