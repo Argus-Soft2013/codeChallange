@@ -1,0 +1,33 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BIZSliderView (1.0.0)
+  - KCOrderedAccessorFix (0.1.1)
+  - SimulatorStatusMagic (1.8)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - BIZSliderView
+  - KCOrderedAccessorFix
+  - SimulatorStatusMagic
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BIZSliderView: 8b40cfbfec368efc2b96531e6d524dd08f9ac9c2
+  KCOrderedAccessorFix: 53c6f2bb13c9a163590f414536eccd2f103e3189
+  SimulatorStatusMagic: 4dbf0faa0208e9ac0d56cea06eaa5f7a5f3d02fb
+
+COCOAPODS: 0.39.0

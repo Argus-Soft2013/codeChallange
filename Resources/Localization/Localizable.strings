@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  codeChallange
+
+  Created by DeMoN on 5/25/16.
+  Copyright © 2016 Argus Soft. All rights reserved.
+*/
+
+// A
+"Alert.Title.Warning" = "Warning";
+"Alert.Message.Validation.Email" = "The E-mail is incorrect format";
+"Alert.Ok" = "OK";
+
+// B
+
+// C
+
+// D
+"Dashboard.List.Header.Title" = "Dashboard";
+"Dashboard.List.Header.Left.Button.Title" = "Logout";
+"Dashboard.List.Header.Right.Button.Title" = " ";
+
+// E
+
+// F
+
+// G
+
+// H
+
+// I
+
+// J
+
+// K
+
+// L
+
+// M
+
+// N
+
+// O
+
+// P
+
+// Q
+
+// R
+
+// S
+
+// T
+"TextField.Placeholder.Email" = "E-Mail";
+"TextField.Placeholder.Password" = "Password";
+
+// U
+
+// V
+
+// W
+
+// X
+
+// Y
+
+// Z

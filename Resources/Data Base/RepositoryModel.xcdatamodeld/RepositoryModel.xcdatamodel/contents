@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1713" minimumToolsVersion="Automatic">
+    <entity name="KPICDCurrency" representedClassName="KPICDCurrency" syncable="YES">
+        <attribute name="unit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="kpiValue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="amountInAggregationCurrency" inverseEntity="KPICDValue" syncable="YES"/>
+    </entity>
+    <entity name="KPICDEntity" representedClassName="KPICDEntity" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deleted" optional="YES" attributeType="Integer 32" syncable="YES"/>
+        <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kpiValue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="kpiEntity" inverseEntity="KPICDValue" syncable="YES"/>
+        <relationship name="surroundingPeriodData" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDSurroundingPeriodData" inverseName="kpiEntity" inverseEntity="KPICDSurroundingPeriodData" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDUser" inverseName="kpiEntity" inverseEntity="KPICDUser" syncable="YES"/>
+    </entity>
+    <entity name="KPICDSurroundingPeriodData" representedClassName="KPICDSurroundingPeriodData" syncable="YES">
+        <relationship name="avgValue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="surroundingPeriodDataAvg" inverseEntity="KPICDValue" syncable="YES"/>
+        <relationship name="kpiEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDEntity" inverseName="surroundingPeriodData" inverseEntity="KPICDEntity" syncable="YES"/>
+        <relationship name="maxValue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="surroundingPeriodDataMax" inverseEntity="KPICDValue" syncable="YES"/>
+        <relationship name="minValue" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="surroundingPeriodDataMin" inverseEntity="KPICDValue" syncable="YES"/>
+        <relationship name="timePeriod" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDTimePeriod" inverseName="surroundingPeriodDatatimePeriod" inverseEntity="KPICDTimePeriod" syncable="YES"/>
+    </entity>
+    <entity name="KPICDTimePeriod" representedClassName="KPICDTimePeriod" syncable="YES">
+        <attribute name="periodEnd" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sliceCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sliceUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sliceUnitCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="kpiValueTimePeriod" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDValue" inverseName="timePeriod" inverseEntity="KPICDValue" syncable="YES"/>
+        <relationship name="surroundingPeriodDatatimePeriod" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDSurroundingPeriodData" inverseName="timePeriod" inverseEntity="KPICDSurroundingPeriodData" syncable="YES"/>
+    </entity>
+    <entity name="KPICDUser" representedClassName="KPICDUser" syncable="YES">
+        <attribute name="login" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="kpiEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDEntity" inverseName="user" inverseEntity="KPICDEntity" syncable="YES"/>
+    </entity>
+    <entity name="KPICDValue" representedClassName="KPICDValue" syncable="YES">
+        <attribute name="quantity" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="amountInAggregationCurrency" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDCurrency" inverseName="kpiValue" inverseEntity="KPICDCurrency" syncable="YES"/>
+        <relationship name="kpiEntity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDEntity" inverseName="kpiValue" inverseEntity="KPICDEntity" syncable="YES"/>
+        <relationship name="surroundingPeriodDataAvg" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDSurroundingPeriodData" inverseName="avgValue" inverseEntity="KPICDSurroundingPeriodData" syncable="YES"/>
+        <relationship name="surroundingPeriodDataMax" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDSurroundingPeriodData" inverseName="maxValue" inverseEntity="KPICDSurroundingPeriodData" syncable="YES"/>
+        <relationship name="surroundingPeriodDataMin" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDSurroundingPeriodData" inverseName="minValue" inverseEntity="KPICDSurroundingPeriodData" syncable="YES"/>
+        <relationship name="timePeriod" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="KPICDTimePeriod" inverseName="kpiValueTimePeriod" inverseEntity="KPICDTimePeriod" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="KPICDCurrency" positionX="-144" positionY="-81" width="128" height="88"/>
+        <element name="KPICDEntity" positionX="79" positionY="45" width="128" height="133"/>
+        <element name="KPICDSurroundingPeriodData" positionX="52" positionY="215" width="128" height="118"/>
+        <element name="KPICDTimePeriod" positionX="-162" positionY="423" width="128" height="135"/>
+        <element name="KPICDValue" positionX="-666" positionY="111" width="128" height="148"/>
+        <element name="KPICDUser" positionX="-531" positionY="-9" width="128" height="88"/>
+    </elements>
+</model>

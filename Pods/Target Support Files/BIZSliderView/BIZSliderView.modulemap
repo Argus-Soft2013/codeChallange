@@ -1,0 +1,6 @@
+framework module BIZSliderView {
+  umbrella header "BIZSliderView-umbrella.h"
+
+  export *
+  module * { export * }
+}
