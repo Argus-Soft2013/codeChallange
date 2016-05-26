@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'DA237022030C073F9F5625C1'
+               BlueprintIdentifier = '33F35E9C54AA5E270CCAE253'
                BlueprintName = 'BIZSliderView'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libBIZSliderView.a'>
